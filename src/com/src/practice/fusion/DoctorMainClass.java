@@ -9,7 +9,7 @@ public class DoctorMainClass {
 	public static void main(String[] args) throws IOException {
 
 		Doctor doctor = new Doctor();
-		List<Doctor> doctorList = doctor.readDoctorsFromFile("/home/docs/doctors.txt");
+		List<Doctor> doctorList = doctor.readDoctorsFromFile("./resource/doctors.txt");
 		Doctor inputDoctor = new Doctor();
 		inputDoctor.setName("Mark Lin");
 		inputDoctor.setLocation("San Jose");
